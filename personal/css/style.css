@@ -1,0 +1,19 @@
+.container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+    padding:0;
+}
+.slider-image{
+	width:100%;
+	height:100%;
+}
+.product-grid{
+	text-align:center;
+	margin-top:15px;
+	margin-bottom:15px;
+	
+}
+.product{
+	width:100%;
+	height:60%;
+}
