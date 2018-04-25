@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+	<head>
+		<title>
+			Introduction to Forms
+		</title>
+	</head>
+	<body>
+		
+		<!--simple textbox-->
+		<form action="server side url/filename" method="post">
+			First Name: <input type="text" name="txtFirstName"/> <br />
+			Last Name:  <input type="text" name="txtLastName" /> <br />
+		</form>
+		
+		<br />
+		<br />
+		<!-- TextBox with Password type-->
+		<form>
+			User Name: <input type="text" name="txtUserName" /><br />
+			Password : <input type="password" name="txtPassword" /><br />
+		</form>
+		
+		<br />
+		<br />
+		<!--MultiLine Textbox -->
+		<form>
+			MultiLine Text: <textarea name="txtMultiLineText"></textarea>
+		</form>
+		
+		<!--Checkbox-->
+		<form>
+			do you like hockey ? <input type="checkbox" name="chkHockey" /><br />
+			do you like Cricket ?<input type="checkbox" name="chkCricket" /><br />
+			do you like Basket ball ?<input type="checkbox" name="chkCricket" checked /><br />
+		</form>
+		
+		<br />
+		<br />
+		<!--Radio Button-->
+		<form>
+		 Please Select your Gender <br />
+		<input type="radio" name="rdGender" Value="Male"/> Male
+		<input type="radio" name="rdGender" Value="FeMale" /> Female
+		</form>
+		
+		<br />
+		<br />
+		<!--Select Option-->
+		<form action="" method="get">
+			Please Select your Education: 
+			<select name="slEdu">
+				<option value="Matric">Matric</option>
+				<option value="Inter">I.C.S/F.S.C/F.A</option>
+				<option value="Gradute">B.A/BSIT/BSCS</option>
+				<option value="MS">Mphil</option>
+				<option value="PHD">Phd</option>
+				
+			</select>
+			<br />
+			<input type="submit" value="Send" />
+			<input type="reset" />
+		</form>
+		
+		<!--HTML5 New Input types-->
+		<form>
+			Date: <input type="date" name="txtDate" /><br />
+			Color: <input type="color" name="txtcolor" /><br />
+			Number: <input type="Number" name="txtNumber" /><br />
+			Range:   <input type="range" name="points" min="0" max="10" /><br />
+			Time: <input type="time" name="txtTime"/><br />
+		</form>
+	</body>
+</html>

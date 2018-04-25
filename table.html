@@ -1,0 +1,129 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Tables</title>
+	</head>
+	<body>
+	
+	<br />
+	<!--simple Table--->
+		<table>
+			<tr>
+				<th>Name</th>
+				<th>Salary</th>
+			</tr>
+			<tr>
+				<td>Qasim</td>
+				<td>10000</td>
+			</tr>
+			<tr>
+				<td>Fasial</td>
+				<td>25000</td>
+			</tr>
+		</table>
+	
+	<br />
+	<!--Table With Border-->
+		<table border="1" cellpadding=20 cellspacing=5>
+			<tr>
+				<th>Name</th>
+				<th>Salary</th>
+			</tr>
+			<tr>
+				<td>Qasim</td>
+				<td>10000</td>
+			</tr>
+			<tr>
+				<td>Fasial</td>
+				<td>25000</td>
+			</tr>
+		</table>
+	
+	<br />
+	<!--table with ColSpan & RowSpan-->
+	
+		<table border="1" cellpadding=5>
+			<tr>
+				<th>S#</th>
+				<th>Name</th>
+				<th>Salary</th>
+				<th>Regular/Contract</th>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td>Qasim</td>
+				<td>10000</td>
+				<td rowspan="3">All are Regular</td> <!--rospan-->
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>Fasial</td>
+				<td>25000</td>
+			</tr>
+			<tr>
+				<td colspan="2">Total Salary</td> <!--colspan-->
+				<td>35000</td>
+			</tr>
+		</table>
+		<br/>
+		<!--table with Background Color & Lenght & Height-->
+		<table border="1" cellpadding=5 cellspacing=0 bgcolor="lightblue" width=600 height=200 bordercolor="red">
+			<tr>
+				<th>S#</th>
+				<th>Name</th>
+				<th>Salary</th>
+				<th>Regular/Contract</th>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td>Qasim</td>
+				<td>10000</td>
+				<td rowspan="2">All are Regular</td> <!--rospan-->
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>Fasial</td>
+				<td>25000</td>
+			</tr>
+			<tr>
+				<th colspan="2">Total Salary</th> <!--colspan-->
+				<td>35000</td>
+				<td>all amounts are in PKR</td>
+			</tr>
+		</table>
+		
+		<br/>
+		<!--table with Head,Body,Footer-->
+		<table border="1" cellpadding=5 cellspacing=0 bgcolor="lightblue" width=600 height=200 bordercolor="red">
+			<thead>
+				<tr>
+					<th>S#</th>
+					<th>Name</th>
+					<th>Salary</th>
+					<th>Regular/Contract</th>
+				</tr>
+			</thead>
+			<tfoot>
+				<tr>
+					<th colspan="2">Total Salary</th> <!--colspan-->
+					<td>35000</td>
+					<td>all amounts are in PKR</td>
+				</tr>
+			</tfoot>
+			<tbody>
+				<tr>
+					<td>1</td>
+					<td>Qasim</td>
+					<td>10000</td>
+					<td rowspan="2">All are Regular</td> <!--rospan-->
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>Fasial</td>
+					<td>25000</td>
+				</tr>
+			</tbody>
+			
+		</table>
+	</body>
+</html>
