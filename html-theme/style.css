@@ -1,0 +1,5 @@
+#wrap{margin: 0 auto; width:95%; margin-top:-10px; height:100%;}
+.header{width:99.8%; border:1px solid #999;height:135px;}
+.content{width:70%; border:1px solid #999;margin-top:5px;}
+.sidebar{float:right; margin-top:-54px;width:29%; border:1px solid #999;}
+.footer{width:99.8%;border:1px solid #999;margin-top:10px;}
